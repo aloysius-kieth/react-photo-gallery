@@ -1,0 +1,72 @@
+/* Minimal CSS Reset */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;600;700&display=swap");
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 14px;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+:root {
+  --primary: #efb6b2;
+  --secondary: #4e4e4e;
+  --error: #ff4a4a;
+}
+
+body {
+  font-family: 'Noto Serif JP', serif;
+  color: var(--secondary);
+}
+
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.title h1 {
+  color: var(--primary);
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+.title h2 {
+  margin-top: 50px;
+  font-size: 2.6rem;
+}
+
+.title h2,
+.title p {
+  text-align: center;
+}
+/*# sourceMappingURL=App.css.map */
